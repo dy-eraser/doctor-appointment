@@ -26,7 +26,7 @@ mvn clean install
 ### Todo
 
 - [ ] add swagger docs (OpenApi Specification)
-- [ ] - [ ] add Redis and cacheable
+- [ ] add Redis and cacheable
 - [ ] add login endpoint
 - [ ] add registeration endpoint
 - [ ] add message bundle and handling locale
