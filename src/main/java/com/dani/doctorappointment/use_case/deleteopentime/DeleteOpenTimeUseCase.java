@@ -6,11 +6,10 @@ import com.dani.doctorappointment.core.exception.etc.AppointmentIsTakenException
 import com.dani.doctorappointment.core.exception.etc.InvalidInputException;
 import com.dani.doctorappointment.core.use_case.DeleteAppointmentByIdUseCase;
 import com.dani.doctorappointment.core.use_case.FindAppointmentByIdUSeCase;
+import jakarta.persistence.OptimisticLockException;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.springframework.stereotype.Service;
-
-import javax.persistence.OptimisticLockException;
 
 @Service
 @RequiredArgsConstructor
